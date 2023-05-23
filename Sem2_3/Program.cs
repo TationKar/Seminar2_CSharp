@@ -16,8 +16,6 @@ int num = Convert.ToInt32(Console.ReadLine());
 int num2 = num % 7;
 int num3 = num % 23;
 if((num2 == 0) && (num3 == 0))
-{
     Console.WriteLine("кратно");
-}
 else
     Console.WriteLine("не кратно");
